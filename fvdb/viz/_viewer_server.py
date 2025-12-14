@@ -24,7 +24,7 @@ def _get_viewer_server_cpp() -> ViewerCpp:
     return _viewer_server_cpp
 
 
-def init(ip_address: str = "127.0.0.1", port: int = 8080, vk_device_id: int = 0, verbose: bool = False):
+def init(ip_address: str = "0.0.0.0", port: int = 8080, vk_device_id: int = 0, verbose: bool = False):
     """
     Initialize the viewer web-server on the given IP address and port. You must call this function
     first before visualizing any scenes.
