@@ -64,3 +64,4 @@ tests/data/
 *.db
 
 scratch/
+install/
