@@ -252,7 +252,7 @@ if [ "$BUILD_TYPE" == "wheel" ]; then
 elif [ "$BUILD_TYPE" == "install" ]; then
     echo "Build and install package"
     echo "pip install --no-deps --force-reinstall $PIP_ARGS ."
-    pip install --no-deps --force-reinstall $PIP_ARGS .
+    pip install --no-deps $PIP_ARGS .
 # TODO: Fix editable install
 # else
 #     echo "Build and install editable package"
